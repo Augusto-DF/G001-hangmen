@@ -1,0 +1,23 @@
+.mini-card {
+  width: 65px;
+  height: 65px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.unknown {
+  background: linear-gradient(
+    180deg,
+    rgba(188, 168, 231, 0.58) 0%,
+    #d5d1e4 100%
+  );
+}
+
+.show {
+  background-color: #39e769;
+  font-family: 'VT323', sans-serif;
+  font-size: 38px;
+  color: #ffffff;
+}
