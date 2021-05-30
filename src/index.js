@@ -2,12 +2,11 @@ import React from 'react';
 import './style.css';
 import ReactDOM from 'react-dom';
 import App from './App';
-import PlayButton from './components/buttons/PlayButton';
+import LetterButton from './components/buttons/LetterButton';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
-    <PlayButton stateButton="activate" />
   </React.StrictMode>,
 
   document.getElementById('root'),

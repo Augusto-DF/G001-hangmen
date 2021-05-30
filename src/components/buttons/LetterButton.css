@@ -1,0 +1,26 @@
+.letter {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  font-family: 'VT323', sans-serif;
+  font-size: 48px;
+  color: #ffffff;
+  transition: 0.2s;
+}
+
+.default {
+  background-color: #d4cce8;
+  cursor: pointer;
+}
+
+.default:hover {
+  transform: scale(1.2);
+}
+
+.right {
+  background-color: #80e59d;
+}
+
+.wrong {
+  background-color: #f65673;
+}
